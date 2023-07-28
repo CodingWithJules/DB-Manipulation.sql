@@ -1,2 +1,2 @@
-# DB-Manipulation.sql
-Database manipulation utilizing MSSQL
+# DB-Manipulation.sql 🖥️ ⌨️ 
+Welcome to the DB-Manipulation.sql Repository, your go-to resource for simplified and efficient database manipulation using SQL scripts. In this comprehensive repository, we have curated a collection of powerful SQL scripts designed to streamline database operations and empower developers, database administrators, and data enthusiasts with the tools they need to manage databases effortlessly.
