@@ -1,0 +1,14 @@
+USE master;
+GO
+
+IF NOT EXISTS (
+      SELECT name
+      FROM sys.databases
+      WHERE name = N'DATABASE NAME'
+      )
+   CREATE DATABASE [DATABASE NAME];
+GO
+
+IF SERVERPROPERTY('ProductVersion') > '12'
+   ALTER DATABASE [DATABASE NAME] SET QUERY_STORE = ON;
+GO
